@@ -1,0 +1,17 @@
+###
+GET http://localhost:5172
+
+###
+GET http://localhost:5172/downloads
+
+###
+POST http://localhost:5172/submit
+
+###
+PUT http://localhost:5172/update
+
+
+###
+DELETE http://localhost:5172/delete
+
+
