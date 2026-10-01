@@ -1,0 +1,17 @@
+###
+GET http://localhost:5187
+
+###
+GET http://localhost:5187/users/10/posts/This is my first post
+
+###
+GET http://localhost:5187/products/100
+
+###
+GET http://localhost:5187/reports
+
+###
+GET http://localhost:5187/files/path/to/some/file.txt
+
+###
+GET http://localhost:5187/search?id=5&page=1
