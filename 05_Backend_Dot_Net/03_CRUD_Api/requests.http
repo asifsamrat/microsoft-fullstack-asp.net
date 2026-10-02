@@ -1,0 +1,28 @@
+@baseUrl = http://localhost:5187
+
+###
+GET {{baseUrl}}/blogs
+
+###
+GET {{baseUrl}}/blogs/0
+
+###
+POST {{baseUrl}}/blogs
+Content-Type: application/json
+
+{
+  "title": "New Blog Post",
+  "content": "This is the content of the new blog post."
+}
+
+###
+PUT {{baseUrl}}/blogs/0
+Content-Type: application/json
+
+{
+  "title": "Updated Blog Post",
+  "content": "This is the updated content of the blog post."
+}
+
+###
+DELETE {{baseUrl}}/blogs/0
